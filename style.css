@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background: #f4f4f4;
+
+}
+header {
+    background: #2d89ef;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+
+
+}
+.hero{
+    background: url() no-repeat center/cover;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    color: #f4f4f4;
+    text-shadow: 0 0 5px #000;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+.card{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+
+}
+.card img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card button{
+    background: #2d89ef;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card button:hover{
+    background: #1e5eab;
+}
